@@ -1,8 +1,7 @@
 # compute-sphere
 
 ## Suggested Folder Structure
-```
-bash
+```bash
 
 project-root/
 ├── client/                 # Client node implementation
@@ -68,4 +67,9 @@ project-root/
     ├── README.md           # Main documentation entry point
     └── index.html          # Documentation homepage
 
+```
+
+## Running the Database:
+``` bash
+docker run --name computer_sphere -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=computer_sphere -p 5432:5432 -d postgres:14
 ```
