@@ -1,5 +1,6 @@
 # Design Documents
-  
+
+## Overwiew  
 ```
    +-------------------+       +------------------+
  |   Web Interface   |       |   Admin Console  |
@@ -27,3 +28,6 @@
                       +------------------+
 
 ```
+
+## Diagram
+![compute-sphere-design](https://github.com/NicholasRodrigues/compute-sphere/assets/104515007/ffde3e27-88fa-4b82-9302-dbcbd2473e6b)
